@@ -1,2 +1,2 @@
-# Fruit Snap
-Trabalho da faculdade 6 semestre.
+# Nutri Snap
+Trabalho de Conclusão de Curso
