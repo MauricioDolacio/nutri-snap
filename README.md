@@ -1,4 +1,4 @@
-# NutriSnap
+# Nutri Snap
 Nutri Snap is an application that shows the nutritional values of a food with just a photo.
 
 ![NutriSnap](https://imgur.com/DtqG8hZ.jpg)
