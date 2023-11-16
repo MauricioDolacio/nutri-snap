@@ -29,7 +29,7 @@ pip install flask
 - Download and insert the model 'fruit_and_vegetable_trained_model.h5' to the folder '/api'
 - Enter your Local IP:
 ```
-/api/ReturnAPI.py
+/api/main.py
 [70] app.run('your_ip')
 
 /flutter/lib/screens/home_screen.dart
@@ -38,7 +38,7 @@ pip install flask
 [97] 'http:/your_ip:5000',
 [98] );
 ```
-- In '/api' run 'ReturnAPI.py' to start the Backend API
+- In '/api' run 'main.py' to start the Backend API
 - In '/flutter' run 'main.dart' file to start the application
 
 ##  Tools Used
