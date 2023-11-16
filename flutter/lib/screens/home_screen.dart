@@ -94,7 +94,7 @@ class _HomeState extends State<Home> {
 
       final NutritionModel? nutrition = await uploadImage(
         image!.path,
-        'http://0.0.0.0:5000',
+        'http://your_ip:5000', //Your IP Here
       );
 
       if (nutrition == null) {
