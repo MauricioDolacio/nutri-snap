@@ -1,6 +1,9 @@
 # NutriSnap
 Nutri Snap is an application that shows the nutritional values of a food with just a photo.
 
+![NutriSnap](https://imgur.com/DtqG8hZ.jpg)
+
+
 ## Overview
 
 The application allows the user to take/send photos of fruits and vegetables and returns the nutritional values of the food. To recognize food, an image classification model was trained to identify around 36 fruits and vegetables with an accuracy of 94%.
@@ -8,8 +11,6 @@ The application allows the user to take/send photos of fruits and vegetables and
 - **/api:** Backend. Food recognition and research into nutritional values.
 - **/flutter:** Mobile Application.
 - **/food_detection:** Fruit and vegetable classifier training files.
-
-![NutriSnap](https://imgur.com/sWVdz4)
 
 ## Prerequisites
 - [Python Install](https://www.python.org/downloads/)
