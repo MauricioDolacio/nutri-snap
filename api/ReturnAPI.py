@@ -67,4 +67,4 @@ def Main():
     )
 
 #Inicia API e define host como sendo IP da máquina onde está hospedado
-app.run('192.168.61.4')
+app.run('0.0.0.0')
