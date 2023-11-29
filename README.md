@@ -25,19 +25,8 @@ pip install flask
 ## Installation
 [Download Trained Model Here](https://drive.google.com/drive/folders/1KEwf_s9SDkonnZNCiyxEs7PFO6u3T8cj?usp=drive_link)
 
-- Copy the project. ('/food_detection' is not necessary)
+- Copy the project. OBS: '/food_detection' is not necessary
 - Download and insert the model 'fruit_and_vegetable_trained_model.h5' to the folder '/api'
-- Enter your Local IP:
-```
-/api/main.py
-[70] app.run('your_ip')
-
-/flutter/lib/screens/home_screen.dart
-[95] final NutritionModel? nutrition = await uploadImage(
-[96] image!.path,
-[97] 'http:/your_ip:5000',
-[98] );
-```
 - In '/api' run 'main.py' to start the Backend API
 - In '/flutter' run 'main.dart' file to start the application
 
