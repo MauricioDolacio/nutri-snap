@@ -63,4 +63,4 @@ def Main():
         jsonify(Consult(label[result_index]))
     )
 
-app.run('0.0.0.0') #Your IP Here
+app.run('localhost')
